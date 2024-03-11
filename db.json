@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "name": "urbain grandier",
+      "budget": "2",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 2,
+      "services": [
+        {
+          "name": "Cauã Vargas",
+          "cost": "2",
+          "description": "sdafd",
+          "id": "f711235b-851d-4117-9081-9770c999fe4c"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "cua",
+      "budget": "2",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
