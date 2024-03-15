@@ -1,39 +1,36 @@
-.footer{
+/* Footer.module.css */
+.footer {
     position: fixed;
     bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: #222;
     color: #fff;
-    padding: 0.1em;
+    padding: 0.5em; /* Reduzindo o padding */
     text-align: center;
-    width: 100%;
 }
 
-.social_list{
+.social_list {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin-top: 1em;
+    margin-top: 0.25em; /* Reduzindo a margem superior */
 }
 
-.social_list li{
-    margin: 0 2em;
-    transition: color 0.3s ease;
+.social_list li {
+    margin: 0 0.5em; /* Reduzindo a margem horizontal entre os ícones sociais */
 }
 
-.social_list li:hover{
-    color: #ffbb33;
-}
-
-.social_list svg{
-    font-size: 1.5em;
+.social_list svg {
+    font-size: 1.25em; /* Reduzindo o tamanho dos ícones */
     cursor: pointer;
 }
 
 .copy_right {
-    margin-top: 2em;
+    margin-top: 0.25em; /* Reduzindo a margem superior */
 }
 
-.copy_right span{
+.copy_right span {
     font-weight: bold;
     color: #ffbb33;
 }
